@@ -2,3 +2,7 @@ html, body {
     height: 100%;
     background-color: #90E0EF;
 }
+
+img {
+    clip-path: circle();
+}
