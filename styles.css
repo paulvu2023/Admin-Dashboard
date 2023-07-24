@@ -5,6 +5,12 @@ html, body {
     margin: 0;
 }
 
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-row: 1fr;
+}
+
 .image-container {
     width: 8vw;
 }
@@ -34,8 +40,12 @@ margin: 0;
 .sidebar {
     background: #03045E;
     color: white;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .navbar {
     background: #CAF0F8;
+    grid-column: 2;
+    grid-row: 1;
 }
