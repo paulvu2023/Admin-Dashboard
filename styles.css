@@ -1,6 +1,8 @@
 html, body {
     height: 100%;
     background-color: #90E0EF;
+    padding: 0;
+    margin: 0;
 }
 
 .image-container {
@@ -32,4 +34,8 @@ margin: 0;
 .sidebar {
     background: #03045E;
     color: white;
+}
+
+.navbar {
+    background: #CAF0F8;
 }
