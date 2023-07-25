@@ -11,35 +11,44 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
-.elon {
-    width: 150px;
-    clip-path: circle();
-}
-
-input[type=text] {
-    width: 130px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-width: 50%;
-}
-
-ul {
-list-style: none;
-padding: 0;
-margin: 0;
-border-bottom: 1px solid rgb(235, 233, 233);
-padding-top: 10px;
-}
-
 .sidebar {
     background: white;
     color: black;
     grid-column: 1;
     grid-row: 1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid rgb(235, 233, 233);
+    padding-top: 10px;
+}    
+
+
+li {
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.sidebar-icon {
+    padding: 10px;
+    color: rgb(205, 208, 212);
+}
+
+.Dashboard {
+    font-size: 28px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(235, 233, 233);
+}
+
+.Home {
+    padding-top: 10px;
 }
 
 .navbar {
@@ -50,6 +59,30 @@ padding-top: 10px;
     justify-content: space-around;
     border: 1px solid rgb(235, 233, 233);
     align-items: center;
+}
+
+.elon {
+    width: 150px;
+    clip-path: circle();
+}
+
+.welcome {
+    font-size: 20px;
+}
+
+.welcome2 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+width: 50%;
 }
 
 span {
@@ -86,37 +119,4 @@ span {
 .right-sidebar {
     grid-row: 1/-1;
     grid-column: 2/3;
-}
-
-li {
-    font-size: 20px;
-    font-weight: 100;
-    color: black;
-    padding-bottom: 10px;
-    padding-left: 10px;
-}
-
-.sidebar-icon {
-    padding: 10px;
-    color: rgb(205, 208, 212);
-}
-
-.Dashboard {
-    font-size: 28px;
-    padding-left: 8px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgb(235, 233, 233);
-}
-
-.Home {
-    padding-top: 10px;
-}
-
-.welcome {
-    font-size: 20px;
-}
-
-.welcome2 {
-    font-weight: 800;
-    font-size: 30px;
 }
