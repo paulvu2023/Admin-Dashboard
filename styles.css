@@ -72,3 +72,15 @@ margin: 0;
     grid-row: 1/-1;
     grid-column: 2/3;
 }
+
+li {
+    font-size: 25px;
+}
+
+.sidebar-icon {
+    padding: 10px;
+}
+
+.fa-grip-vertical {
+    padding-left: 17px;
+}
