@@ -82,6 +82,7 @@ li {
 
 .sidebar-icon {
     padding: 10px;
+    color: rgb(205, 208, 212);
 }
 
 .fa-grip-vertical {
@@ -90,5 +91,4 @@ li {
 
 .Dashboard {
     font-size: 25px;
-    font-weight: 100;
 }
