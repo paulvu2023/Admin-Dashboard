@@ -95,6 +95,10 @@ span {
     align-items: center;
 }
 
+.nav-right {
+    justify-content: space-between;
+}
+
 .right-side {
     display: grid;
     grid-template-columns: 1fr;
