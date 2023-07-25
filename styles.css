@@ -56,7 +56,6 @@ li {
     grid-column: 1;
     grid-row: 1;
     display: flex;
-    justify-content: space-around;
     border: 1px solid rgb(235, 233, 233);
     align-items: center;
 }
@@ -95,8 +94,14 @@ span {
     align-items: center;
 }
 
+.nav-left {
+    max-height: 85px;
+    min-width: 440px;
+}
+
 .nav-right {
     justify-content: space-between;
+    gap: 40px;
 }
 
 .right-side {
