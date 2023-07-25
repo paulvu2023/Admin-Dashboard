@@ -15,7 +15,6 @@ body {
 .elon {
     width: 150px;
     clip-path: circle();
-    margin-top: 7px;
 }
 
 input[type=text] {
@@ -47,9 +46,20 @@ padding-top: 10px;
     background: white;
     grid-column: 1;
     grid-row: 1;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
     border: 1px solid rgb(235, 233, 233);
+    align-items: center;
+}
+
+span {
+    color: rgb(111, 122, 189);
+    margin-right: 10px;
+}
+
+.nav-right, .nav-left {
+    display: flex;
+    align-items: center;
 }
 
 .right-side {
@@ -100,4 +110,13 @@ li {
 
 .Home {
     padding-top: 10px;
+}
+
+.welcome {
+    font-size: 20px;
+}
+
+.welcome2 {
+    font-weight: 800;
+    font-size: 30px;
 }
