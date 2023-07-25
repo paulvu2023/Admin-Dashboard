@@ -43,11 +43,12 @@ padding-top: 10px;
 }
 
 .navbar {
-    background: gray;
+    background: white;
     grid-column: 1;
     grid-row: 1;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid rgb(235, 233, 233);
 }
 
 .right-side {
