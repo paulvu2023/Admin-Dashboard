@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    background-color: #90E0EF;
+    background-color: darkgray;
     padding: 0;
     margin: 0;
 }
@@ -8,7 +8,7 @@ html, body {
 body {
     display: grid;
     grid-template-columns: 200px 1fr;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -34,14 +34,14 @@ margin: 0;
 }
 
 .sidebar {
-    background: #03045E;
-    color: white;
+    background: white;
+    color: black;
     grid-column: 1;
     grid-row: 1;
 }
 
 .navbar {
-    background: #CAF0F8;
+    background: gray;
     grid-column: 1;
     grid-row: 1;
     display: grid;
@@ -75,7 +75,9 @@ margin: 0;
 }
 
 li {
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
 }
 
 .sidebar-icon {
@@ -84,4 +86,9 @@ li {
 
 .fa-grip-vertical {
     padding-left: 17px;
+}
+
+.Dashboard {
+    font-size: 25px;
+    font-weight: 100;
 }
