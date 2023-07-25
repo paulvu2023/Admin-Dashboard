@@ -12,9 +12,10 @@ body {
 }
 
 
-img {
+.elon {
     width: 150px;
     clip-path: circle();
+    margin-top: 7px;
 }
 
 input[type=text] {
