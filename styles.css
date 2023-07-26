@@ -111,6 +111,22 @@ span {
     
 }
 
+.nav-buttons {
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+    border: 1px;
+    border-radius: 24px;
+    background: rgb(19, 134, 211);
+    color: white;
+    font-weight: 800;
+}
+  
+.nav-buttons:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+
+}
+
 .right-side {
     display: grid;
     grid-template-columns: 1fr;
@@ -137,18 +153,4 @@ span {
     grid-column: 2/3;
 }
 
-.nav-buttons {
-    transition-duration: 0.4s;
-    padding: 10px 24px;
-    border: 1px;
-    border-radius: 24px;
-    background: rgb(19, 134, 211);
-    color: white;
-    font-weight: 800;
-}
-  
-.nav-buttons:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
 
-}
