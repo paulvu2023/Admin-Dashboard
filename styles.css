@@ -108,12 +108,12 @@ span {
 
 .nav-right {
     justify-content: space-between;
-    
+    gap: 1vw;
 }
 
 .nav-buttons {
     transition-duration: 0.4s;
-    padding: 10px 24px;
+    padding: 10px 1vw;
     border: 1px;
     border-radius: 24px;
     background: rgb(19, 134, 211);
@@ -127,8 +127,10 @@ span {
 
 }
 
-.fa-magnifying-glass {
-    padding-right: 10px;
+.search-bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .right-side {
