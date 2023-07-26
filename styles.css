@@ -80,9 +80,10 @@ li {
 }
 
 input[type=text] {
-    width: 50%;
+    width: 50px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+    border-radius: 12px;
 
 }
 
@@ -107,7 +108,7 @@ span {
 
 .nav-right {
     justify-content: space-between;
-    gap: 40px;
+    
 }
 
 .right-side {
