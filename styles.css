@@ -58,6 +58,11 @@ li {
     display: flex;
     border: 1px solid rgb(235, 233, 233);
     align-items: center;
+    justify-content: space-between;
+}
+
+.share {
+    /*margin-right: 60px;*/
 }
 
 .elon {
@@ -75,13 +80,14 @@ li {
 }
 
 input[type=text] {
-    width: 130px;
+    width: 50%;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+
 }
 
 input[type=text]:focus {
-width: 50%;
+    width: 100%;
 }
 
 span {
@@ -128,4 +134,20 @@ span {
 .right-sidebar {
     grid-row: 1/-1;
     grid-column: 2/3;
+}
+
+.nav-buttons {
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+    border: 1px;
+    border-radius: 24px;
+    background: rgb(19, 134, 211);
+    color: white;
+    font-weight: 800;
+}
+  
+.nav-buttons:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+
 }
