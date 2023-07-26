@@ -127,6 +127,10 @@ span {
 
 }
 
+.fa-magnifying-glass {
+    padding-right: 10px;
+}
+
 .right-side {
     display: grid;
     grid-template-columns: 1fr;
