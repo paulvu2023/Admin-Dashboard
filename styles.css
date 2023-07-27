@@ -62,10 +62,6 @@ li {
     flex: 1;
 }
 
-.share {
-    margin-right: 60px;
-}
-
 .elon {
     width: 150px;
     clip-path: circle();
@@ -80,14 +76,18 @@ li {
     font-size: 30px;
 }
 
-input[type=text] {
-    width: 100%;
-    border-radius: 12px;
-}
-
 span {
     color: rgb(111, 122, 189);
     margin-right: 10px;
+}
+
+.share {
+    margin-right: 60px;
+}
+
+input[type=text] {
+    width: 100%;
+    border-radius: 12px;
 }
 
 .nav-right, .nav-left {
@@ -133,17 +133,17 @@ span {
     grid-template-rows: 100px 1fr;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 75px 1fr;
+}
+
 .cards {
     grid-row: 2;
     grid-column: 1;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 1fr 1fr;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr 300px;
-    grid-template-rows: 75px 1fr;
 }
 
 .projects {
@@ -154,8 +154,6 @@ span {
     grid-row: 1/-1;
     grid-column: 2/3;
 }
-
-
 
 
 /* card styling */
