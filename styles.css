@@ -13,7 +13,7 @@ body {
 
 .sidebar {
     background: white;
-    color: black;
+    color: green;
     grid-column: 1;
     grid-row: 1;
 }
@@ -112,13 +112,13 @@ input[type=text] {
     padding: 10px 1vw;
     border: 1px;
     border-radius: 24px;
-    background: rgb(19, 134, 211);
+    background: black;
     color: white;
     font-weight: 800;
 }
   
 .nav-buttons:hover {
-    background-color: #4CAF50; /* Green */
+    background-color: blue;
     color: white;
 
 }
