@@ -138,11 +138,15 @@ input[type=text] {
 .container {
     display: grid;
     grid-template-columns: 1fr 300px;
-    grid-template-rows: 75px 1fr;
+    grid-template-rows: 50px 1fr;
 }
 
 .projects {
+    padding-top: 20px;
+    padding-left: 10px;
     grid-column: 1;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .cards {
