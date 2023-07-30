@@ -182,7 +182,7 @@ img {
     grid-template-rows: 1fr 1fr;
 }
 
-.announcements {
+.announcements, .trending {
     font-weight: 800;
     font-size: 20px;
     padding-top: 20px;
